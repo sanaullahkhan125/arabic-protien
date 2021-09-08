@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ...........HEADER OPEN............ */
+/* ...........NAVBAR OPEN............. */
+
+.navbar .container .collapse .btn {
+    border-radius: 500px;
+    width: 90px;
+    padding: 0;
+    margin: auto;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+.navbar .container .collapse .nav-item {
+    margin-right: 30px;
+}
+
+.navbar .container .nav-brand .collapse .nav-item .nav-link {
+    color: #333 !important;
+}
+
+.navbar .container .nav-brand .collapse .dropdown {
+    align-self: center;
+    padding: 3px;
+    background: whitesmoke;
+    cursor: pointer;
+}
+
+.navbar .container .nav-brand .collapse .dropdown .flag-img {
+    width: 20px;
+}
+
+.navbar .container .nav-brand .collapse .dropdown .inline-word {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
+/* .............NAVBAR CLOSE.......... */
+
+/* ...........SECTION OPEN............ */
+
+.section {
+    background-image: url(../img/background.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.section .section-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.section .section-item .text-muted {
+    font-size: 45px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.section .section-item .first-heading {
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.section .section-item .first-heading .change-clr {
+    color: rgb(6, 214, 51);
+}
+
+.section .section-item .para {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.section .section-item .input-group {
+    width: auto;
+}
+
+.section .section-item .input-group>.input-item {
+    display: flex;
+    margin: auto;
+}
+
+.section .section-item .input-group .input {
+    width: 400px;
+}
+
+.section .section-item .input-group .btn-success {
+    border-radius: 20px 0 0 20px;
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    -ms-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
+    padding: 9px;
+    box-shadow: none;
+}
+
+
+.section .section-item .input-group .bg-danger {
+    border-radius: 0 20px 20px 0;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+    padding: 8px 18px;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+/* ............SECTION CLOSE............. */
+
+#head .content {
+    display: flex;
+    justify-content: space-evenly;
+    background: #fff;
+    position: relative;
+    bottom: 50px;
+    margin-bottom: 60px;
+    box-shadow: 10px 10px 40px lightgrey;
+}
+
+.content .brand {
+    border-right: 1px solid gray;
+    padding-right: 50px;
+}
+
+#head .content .brand,
+.extra .para {
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 500;
+}
+
+/* .............HEADER CLOSE............. */
+
+/* .............MAIN SECTION OPEN............ */
+.main-section .content {
+    display: flex;
+    justify-content: space-evenly;
+    background: #fff;
+    margin-bottom: 100px;
+}
+
+.main-section .content .content-box .text-muted {
+    font-size: 45px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.main-section .content .content-box .first-heading {
+    font-size: 2.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.main-section .content .content-box .first-heading .change-clr {
+    color: rgb(6, 214, 51);
+}
+
+.main-section .content .img-box {
+    width: 100%;
+}
+
+.main-section .content .content-box .btn {
+    border-radius: 500px;
+    width: 130px;
+    font-weight: 600;
+}
+
+.main-section .content-model {
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+.main-section .content-model .content-head {
+    text-align: center;
+}
+
+.main-section .content-model .content-head .heading {
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.main-section .content-model .content-head .heading .word {
+    border-bottom: 1px solid orangered;
+}
+
+.main-section .content-model .content-head .heading .inword {
+    border-bottom: 1px solid orangered;
+    padding-bottom: 3px;
+}
+
+.main-section .content-model .content-head .para {
+    width: 700px;
+    margin: auto;
+    padding: 15px 0px 25px 0px;
+}
+
+.main-section .content-model .content-head .btn {
+    border-radius: 500px;
+    width: 60px;
+    padding: 2px;
+    margin: auto;
+}
+
+.main-section .content-model .content-head .links {
+    padding: 0 0.5rem;
+    text-transform: capitalize;
+    color: grey;
+    text-decoration: none;
+}
+
+.main-section .content-model .boxses,
+.boxses-model {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-section .content-model .boxses-model .box-item {
+    margin-bottom: 20px;
+}
+
+.main-section .content-model .box-item {
+    margin-top: 30px;
+    background: white;
+    padding: 0px 100px;
+}
+
+.main-section .content-model .user-img {
+    position: relative;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 5px solid #11111111;
+    align-self: center;
+    width: 65px;
+}
+
+.main-section .content-model .para {
+    text-align: center;
+}
